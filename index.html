@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ласкаво просимо на мій крутий сайт!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+            background-color: #2c3e50;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contacts-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #1abc9c;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contacts-button:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ласкаво просимо на мій крутий сайт!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Головна</a>
+        <a href="#about">Про мене</a>
+        <a href="#projects">Проекти</a>
+        <a href="#contacts">Контакти</a>
+    </nav>
+
+    <section id="home">
+        <h2>Головна</h2>
+        <p>Ласкаво просимо на мій персональний сайт! Перегляньте розділи, щоб дізнатися більше.</p>
+    </section>
+
+    <section id="about">
+        <h2>Про мене</h2>
+        <p>Привіт! Мене звати Даня, і це мій сайт, на якому я розповідаю про себе та свої проекти. Я люблю програмування і створюю круті проекти у світі технологій!</p>
+        <ul>
+            <li>Програмування: HTML, CSS, JavaScript</li>
+            <li>Ігри та стріми</li>
+            <li>Графічний дизайн</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Мої проекти</h2>
+        <p>Відвідай мій YouTube-канал: <a href="https://www.youtube.com/@FanTexJET" target="_blank">FanTexJET</a>, де я публікую відео про ігри!</p>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <p>Якщо хочеш зв'язатися зі мною, натисни кнопку нижче:</p>
+        <button class="contacts-button" id="callButton">Зателефонувати</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Мій крутий сайт. Всі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
